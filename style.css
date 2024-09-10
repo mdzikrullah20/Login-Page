@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+    background-position: center;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:50px;
+}
+/* Glassmorphism card effect */
+.cantainer {
+    height:500px; 
+    width:400px;
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(40, 40, 40, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow:10px 10px 10px 0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.sign{
+    height:100px;
+    width:300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:20px;
+}
+.youremail{
+    height:30px;
+    width:300px;
+    /* border:1px solid green; */
+    display:flex;
+    align-items:center;
+}
+input{
+    height:25px;
+    width:300px;
+    font-size:17px;
+    border-radius:8px;
+    margin:4px;
+    color: rgb(0, 233, 233);
+    box-shadow:2px 2px 2px 0px;
+    background-color:rgb(51, 60, 70);
+}
+.mybutton{
+  height:30px;
+  width:300px;
+  margin-top:24px;
+  background-color:rgb(51, 60, 70);
+  color: rgb(0, 233, 233);
+  border-radius:8px;
+  box-shadow:2px 2px 2px 0px;
+}
